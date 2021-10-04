@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './component/About/About';
 import AllServices from './component/AllServices/AllServices';
+import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import LiveSession from './component/LiveSession/LiveSession';
@@ -48,6 +49,8 @@ function App() {
 
 
         </Switch>
+
+        <Footer></Footer>
       </Router>
     </div>
   );

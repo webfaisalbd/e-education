@@ -12,7 +12,7 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <h2>no of services {services.length}</h2>
+            {/* <h2>no of services {services.length}</h2> */}
             <div className="service-style">
                 {
                     services.map(service => <Service

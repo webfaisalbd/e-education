@@ -4,7 +4,7 @@ const Service = (props) => {
     const { name, Mentor, price, img, Duration } = props.service;
     const serviceStyle = {
         border: '3px',
-        boxShadow: '3px 3px red, -1em 0 .4em olive',
+        boxShadow: '12px 12px 2px 1px rgba(0, 0, 255, .2)',
         padding: '10px',
         margin: '10px',
         borderRadius: '10px'

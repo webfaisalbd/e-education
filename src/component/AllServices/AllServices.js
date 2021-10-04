@@ -14,7 +14,7 @@ const AllServices = () => {
 
     return (
         <div>
-            <h2>fao  {allServices.length}</h2>
+            {/* <h2>fao  {allServices.length}</h2> */}
 
             <div className="allService-style">
                 {
