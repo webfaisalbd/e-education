@@ -2,7 +2,7 @@ import React from 'react';
 
 const LiveSession = () => {
     return (
-        <div>
+        <div className="heightStyle">
             <h2>this is</h2>
         </div>
     );
