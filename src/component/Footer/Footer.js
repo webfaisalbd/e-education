@@ -1,3 +1,4 @@
+// import file 
 import React from 'react';
 
 const Footer = () => {
@@ -5,6 +6,7 @@ const Footer = () => {
         <div>
 
             <div className="bg-info text-center mt-5 p-5">
+                {/* this is footer. there are two columns  */}
                 <div className="row">
                     <div className="col-6">
                         <h5>Contact us</h5>
