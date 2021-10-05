@@ -3,7 +3,7 @@ import React from 'react';
 
 const LiveSession = () => {
     return (
-        <div>
+        <div className="heightStyle">
 
             {/* two division  */}
 
