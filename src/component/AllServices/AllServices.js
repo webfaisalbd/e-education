@@ -16,7 +16,7 @@ const AllServices = () => {
     return (
         <div>
             {/* <h2>fao  {allServices.length}</h2> */}
-
+            <h3 className="text-center mt-3">Currenly We Offer Courses</h3>
             <div className="allService-style">
                 {
                     allServices.map(allService => <AllService

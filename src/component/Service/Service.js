@@ -1,22 +1,30 @@
 // import file 
 import React from 'react';
+import { Button, Card } from 'react-bootstrap';
 
 const Service = (props) => {
-    const { name, Mentor, price, img, Duration } = props.service;
-    const serviceStyle = {
-        border: '3px',
-        boxShadow: '12px 12px 2px 1px rgba(0, 0, 255, .2)',
-        padding: '10px',
-        margin: '10px',
-        borderRadius: '10px'
-    }
+    const { name, Mentor, price, img, Duration, rating } = props.service;
+
     return (
-        <div style={serviceStyle}>
-            <img src={img} className="w-50" alt="" />
-            <h4>Course Name: {name}</h4>
-            <h6>Course Mentor: {Mentor}</h6>
-            <h6>Course Mentor: {Duration}</h6>
-            <h6>Price: {price}</h6>
+        <div>
+
+            <Card style={{ width: '20rem', backgroundColor: "" }} className="shadow-lg rounded mt-3">
+                <div className="p-2 rounded">
+                    <Card.Img variant="top" src={img} className="h-25 mx-auto" />
+                </div>
+                <Card.Body>
+                    <Card.Title> <span className="text-info">Course Name: </span>{name}</Card.Title>
+                    <Card.Text>
+                        <h6> <span className="text-info">Course Mentor: </span> {Mentor}</h6>
+                        <h6> <span className="text-info">Course Duration: </span> {Duration}</h6>
+                        <h6> <span className="text-info">Course Rating: </span> {rating}</h6>
+                        <h6> <span className="text-info">Course Fee: </span> {price} tk</h6>
+                    </Card.Text>
+                    <div className="d-flex  justify-content-between">
+                        <Button variant="success">Course Outline</Button>
+                        <Button variant="primary">Enroll Now</Button></div>
+                </Card.Body>
+            </Card>
         </div>
     );
 };

@@ -76,7 +76,7 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p className="ps-2">
-                                            <br />  102 1st Avenue, New York, NY 100
+                                            <br />  Savar,Dhaka,Bangladesh
                                         </p>
                                     </div>
                                 </div>
