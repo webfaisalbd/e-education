@@ -55,7 +55,7 @@ const Footer = () => {
                         <div className="col-md-5">
                             <div className="right-footer-container">
                                 <div className="text-center">
-                                    <h3 className="">Sign up for the new Laerner</h3>
+                                    <h3 className="">Sign up for the new Learner</h3>
                                     <input
                                         className="footer-input"
                                         type="text"

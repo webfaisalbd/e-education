@@ -6,7 +6,11 @@ const About = () => {
     return (
 
         <div className="heightStyle">
-            <h2 className="mt-4 w-50 mx-auto">You can visit out website for better learning about us. Don't hesitate to contact us.
+            <h2 className="mt-4 text-center">
+                <p> You can visit out website for better information about us.</p>
+                <p>Don't hesitate to contact us.</p>
+                <p>Any feedback , please share us</p>
+                <p>Your feedback make us rich</p>
             </h2>
 
         </div>
